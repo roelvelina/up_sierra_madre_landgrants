@@ -25,23 +25,30 @@ body{
 .logo2{
     position: absolute;
     margin-top: 30px;
-    margin-left: 170px;
+    margin-left: 140px;
 }
 
 .header-title{
-    margin-left: 290px;
+    margin-left: 260px;
 }
 
-#p1{
+.navigation{
+    float: right;
+    font-size: 20px;
+    margin-right: 15px;
+    word-break: 20px;
+    display: absolute;
+    margin-top: auto;
 }
 
 .summary{
     float: left;
-    min-height: 600px;
+    min-height: 594px;
     width: 20%;
     background-color: white;
     padding: 5px;
     display:block;
+    opacity: 75%;
 }
 
 button{
@@ -49,8 +56,11 @@ button{
     width:100%;
 }
 
-p1{
+h3{
     margin-left: 0px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: auto;
 
 }
 .carousel-slide{
@@ -74,7 +84,6 @@ p1{
     height: 300px;
     overflow: hidden;
     justify-content: center;
-    vertical-align: middle;
 }
 
 
@@ -89,9 +98,12 @@ p1{
 }
 
 .footer{
+    display: inline-block;
     width: 100%;
-    height: 50px;
-    background-color: solid white;
-    display: relative;
-    float: left;
+    height: 20px;
+    background-color: none;
+    float: right;
+    margin-top: 5px;
+    padding: 2px;
+    text-align: right;
 }
