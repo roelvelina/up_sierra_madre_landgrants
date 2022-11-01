@@ -1,5 +1,6 @@
 body{
-    background-color: green;
+    background-image: linear-gradient(left right, green, maroon);
+    background-color: maroon;
     padding: 10px;
     border-collapse: 2px;
 }
@@ -7,7 +8,7 @@ body{
 .header{
     float: left;
     width: 100%;
-    background-color: white;
+    background-color: whitesmoke;
     text-align: left; 
     margin-top: 5px;
     margin-bottom: 5px;
@@ -16,14 +17,19 @@ body{
     line-height: 0px; 
 }
 
-.logo{
+.logo1{
     position: absolute;
     margin-top: 30px;
     margin-left: 30px;
 }
-
-p{
+.logo2{
+    position: absolute;
+    margin-top: 30px;
     margin-left: 170px;
+}
+
+.header-title{
+    margin-left: 290px;
 }
 
 #p1{
@@ -34,15 +40,19 @@ p{
     min-height: 600px;
     width: 20%;
     background-color: white;
+    padding: 5px;
+    display:block;
 }
 
 button{
-    margin-top: 10px;
-    margin left: 10px;
-    margin-right: 10px;
-    float: right;
+    float: left;
+    width:100%;
 }
 
+p1{
+    margin-left: 0px;
+
+}
 .carousel-slide{
     margin-left: 5px;
     width: 60%;
@@ -50,7 +60,7 @@ button{
     position: relative;
     float: left;
     display: block;
-    border: 1px solid black
+    border: 1px solid white
 }
 
 .carousel-item{
@@ -58,10 +68,13 @@ button{
     top: 0;
     bottom: 0;
     left: 0;
-    opacity: 0;
+    opacity: 1;
     transition-duration: all 0.5s ease-in-out;
     width: 50%;
     height: 300px;
+    overflow: hidden;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 
